@@ -1,0 +1,33 @@
+{
+  "name": "bn-slug",
+  "version": "1.0.0",
+  "description": "bangla slug generator",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -rf ./dist && tsc && node ./dist/index.js",
+    "build": "rm -rf ./dist && tsc",
+    "dev": "nodemon ./src/index.ts -e ts,js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niloy143/bn-slug.git"
+  },
+  "keywords": [
+    "slug",
+    "slug",
+    "generator",
+    "bangla",
+    "bengali",
+    "slug"
+  ],
+  "author": "Niloy Mahmud Apu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niloy143/bn-slug/issues"
+  },
+  "homepage": "https://github.com/niloy143/bn-slug#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.0"
+  }
+}
